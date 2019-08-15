@@ -1,0 +1,25 @@
+{
+  "name": "tsstudy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lesson1/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-sever --mode=development --config ./build/webpack.conf.js",
+    "build": "webpack --mode=production --config ./build/webpack.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-merge": "^1.0.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "shell.js": "^3.1.0",
+    "shelljs": "^0.8.3",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
