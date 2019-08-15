@@ -5,7 +5,7 @@
   "main": "./lesson1/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-sever --mode=development --config ./build/webpack.conf.js",
+    "start": "webpack-dev-sever --mode=development --config build/webpack.conf.js",
     "build": "webpack --mode=production --config ./build/webpack.conf.js",
     "pushCode":"node ./auto/push.js"
   },
