@@ -14,7 +14,7 @@ if (!shell.which('node') || !shell.which('npm')) {
 //     shell.echo('git安装正常，准备提交代码');
 //     shell.exec('git add .')
 //     shell.exec('git commit -am "Auto-commit1"')
-//     shell.exec('git push')
+//     shell.exec('gpush master')
 //     console.log('看看code', shell.exec('git commit -am "Auto-commit"').code);
 // }
 
