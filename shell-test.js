@@ -12,9 +12,9 @@ if(!shell.which('git')) {
 }else{
     shell.echo('git安装正常，准备提交代码');
     shell.exec('git add .')
-    shell.exec('git commit -am "Auto-commit"')
+    shell.exec('git commit -am "Auto-commit1"')
     shell.exec('git push')
-    console.log(shell.exec('git commit -am "Auto-commit"').code,'看看code');
+    console.log('看看code', shell.exec('git commit -am "Auto-commit"').code);
 }
 
 
